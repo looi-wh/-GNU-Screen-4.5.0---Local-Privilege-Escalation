@@ -14,6 +14,9 @@ screen ls
 ```
 libhax.c code (Compiled version available in repo)
 ```
+gcc -fPIC -shared -ldl -o libhax.so libhax.c
+```
+```
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
